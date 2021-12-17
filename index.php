@@ -62,7 +62,7 @@
     </div>
     <div>
         <?php
-            if (strpos($textBonus, $asterisks)) {
+            if (str_contains($textBonus, $asterisks)) {
                 echo $textBonus . '<br />';
                 echo 'La lunghezza del testo con la parola censurata &egrave; di: <span>' . strlen($textBonus) . '</span> caratteri';
             }
