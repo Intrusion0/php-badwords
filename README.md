@@ -1,0 +1,2 @@
+# php-badwords
+PHP Badwords
